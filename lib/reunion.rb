@@ -1,4 +1,5 @@
 require 'pry'
+require './lib/activity'
 
 class Reunion
 
@@ -10,7 +11,8 @@ class Reunion
     @activities = []
   end
 
-  def method_name
-
+  def add_activity(activity)
+    @activities << activity
   end
+
 end
